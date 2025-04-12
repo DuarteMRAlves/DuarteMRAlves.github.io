@@ -7,14 +7,15 @@
 # server process.
 
 # Basic Site Settings
-locale: "en-US"
-title: "Duarte M. Alves"
-title_separator: "-"
-name: &name "Duarte M. Alves"
-description: &description "PhD Student in Computer Science at Instituto Superior Técnico, Universidade de Lisboa"
-url: https://DuarteMRAlves.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "DuarteMRAlves/DuarteMRAlves.github.io"
+locale                   : "en-US"
+site_theme               : "default"
+title                    : "Duarte M. Alves"
+title_separator          : "-"
+name                     : &name "Duarte M. Alves"
+description              : &description "PhD Student in Computer Science at Instituto Superior Técnico, Universidade de Lisboa"
+url                      : https://DuarteMRAlves.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "DuarteMRAlves/DuarteMRAlves.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -84,12 +85,12 @@ publication_category:
     title: "Conference Papers"
 
 # Site Settings
-teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs: false # true, false (default)
-words_per_minute: 160
-future: true
-read_more: "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link: false #change to true to add link to talkmap on talks page
+teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -291,6 +292,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
   - jemoji
 
 # Mimic GitHub Pages with --safe
@@ -299,6 +301,7 @@ whitelist:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
   - jemoji
 
 # Archives
