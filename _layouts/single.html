@@ -36,6 +36,25 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' %}
+          {% assign formatted_authors = "" %}
+          {% for author in page.authors %}
+            {% assign name = author.name %}
+            {% if author.core %}
+              {% assign name = "<strong>" | append: name | append: "</strong>" %} 
+            {% endif %}
+            {% if author.me %}
+              {% assign name = "<u>" | append: name | append: "</u>" %} 
+            {% endif %}
+            {% assign formatted_authors = formatted_authors | append: name %}
+            {% unless forloop.last %}
+              {% assign formatted_authors = formatted_authors | append: ", " %} 
+            {% endunless %}
+          {% endfor %}
+          <p>{{ formatted_authors }}</p>
+          {% if page.venue %}
+            <p><i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% endif %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -71,7 +90,9 @@ layout: default
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 
+      {% if page.collection != 'publications' %}
       {% include post_pagination.html %}
+      {% endif %}
     </div>
 
     {% if site.comments.provider and page.comments %}
