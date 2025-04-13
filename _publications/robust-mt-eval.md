@@ -10,9 +10,8 @@ authors:
     - name: Andre Martins
 permalink: /publication/robust-mt-eval
 date: 2022-12-07
-venue: 'Proceedings of the Seventh Conference on Machine Translation (WMT22)'
+venue: 'Proceedings of the Seventh Conference on Machine Translation (WMT)'
 paperurl: 'https://aclanthology.org/2022.wmt-1.43.pdf'
-order: 4
 share: false
 ---
 

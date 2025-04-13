@@ -20,9 +20,8 @@ authors:
     - name: Andre Martins
 permalink: /publication/tower
 date: 2024-10-07
-venue: 'First Conference on Language Modeling (COLM)'
+venue: 'First Conference on Language Modeling (COLM) - Oral Spotlight'
 paperurl: 'https://arxiv.org/pdf/2402.17733'
-order: 2
 share: false
 ---
 

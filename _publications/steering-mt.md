@@ -13,9 +13,8 @@ authors:
     - name: Andre Martins
 permalink: /publication/steering-mt
 date: 2023-12-06
-venue: 'Findings of the Association for Computational Linguistics: EMNLP 2023'
+venue: 'Findings of the Association for Computational Linguistics: EMNLP'
 paperurl: 'https://aclanthology.org/2023.findings-emnlp.744.pdf'
-order: 3
 share: false
 ---
 

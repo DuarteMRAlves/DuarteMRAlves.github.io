@@ -28,7 +28,6 @@ permalink: /publication/eurobert
 date: 2025-03-07
 venue: 'ArXiv Preprint'
 paperurl: 'https://arxiv.org/pdf/2503.05500'
-order: 1
 share: false
 ---
 

@@ -44,11 +44,11 @@
           {% assign formatted_authors = "" %}
           {% for author in post.authors %}
             {% assign name = author.name %}
-            {% if author.core %}
-              {% assign name = "<strong>" | append: name | append: "</strong>" %}
-            {% endif %}
             {% if author.me %}
               {% assign name = "<u>" | append: name | append: "</u>" %}
+            {% endif %}
+            {% if author.core %}
+              {% assign name = "<strong>" | append: name | append: "</strong>" %}
             {% endif %}
             {% assign formatted_authors = formatted_authors | append: name %}
             {% unless forloop.last %}
@@ -76,7 +76,7 @@
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }}</p>
     {% elsif post.paperurl %}
-      <p class="archive__item-info"><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+      <p class="archive__item-info"><a href=" {{ post.paperurl }} ">Paper</a></p>
     {% elsif post.slidesurl %}
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% endif %}
