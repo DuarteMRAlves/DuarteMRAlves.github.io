@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently pursuing my PhD in Computer Science at the **SARDINE lab** at **Instituto Superior Técnico**, under the supervision of **André Martins**. I have also spent some time doing research at **Centrale Supelec**, where I was advised by **Pierre Colombo**, and was a research intern at **Unbabel** and **Feedzai**.
+I'm currently pursuing a PhD in Computer Science at the **SARDINE lab** at **Instituto Superior Técnico**, under the supervision of **André Martins**. I have also spent some time doing research at **Centrale Supelec**, where I was advised by **Pierre Colombo**, and was a research intern at **Unbabel** and **Feedzai**.
 
-I'm interesting in topics related to **multilinguality**, **reasoning**, and **efficiency**, and my research mostly revolves around the intersection of these areas with **large language models** (LLMs). Recently, I have also became interested in developing general-purpose LLMs, going from the pre-training to the post-training phase. I also have a strong affinity with **machine translation** and have worked on adapting LLMs to translation and evaluating translation quality.
+I'm interested in topics related to **multilinguality**, **reasoning**, and **efficiency**, and my research mostly revolves around the intersection of these areas with **large language models** (LLMs). Recently, I've become particularly interested in developing general-purpose LLMs, going from the pre-training to the post-training phases. I also have a strong affinity with **machine translation**, having worked on adapting LLMs for translation tasks and evaluating translation quality.
 
 # News
 
